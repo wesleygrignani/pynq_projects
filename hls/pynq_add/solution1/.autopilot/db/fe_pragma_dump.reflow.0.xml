@@ -1,0 +1,6 @@
+<pragmas>
+<pragma file="add.cpp" line="5" pragmaType="interface" parentfunction="add" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="add.cpp" line="6" pragmaType="interface" parentfunction="add" mode="s_axilite" port="a" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="add.cpp" line="7" pragmaType="interface" parentfunction="add" mode="s_axilite" port="b" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="add.cpp" line="8" pragmaType="interface" parentfunction="add" mode="s_axilite" port="c" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+</pragmas>

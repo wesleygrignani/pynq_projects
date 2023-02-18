@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="example.cpp" path="C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\example.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="example_test.cpp" path="C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\example_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,116 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Feb 16 13:36:49 2023
+| Host         : Wesley running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 16
++-----------+----------+--------------------------------+------------+
+| Rule      | Severity | Description                    | Violations |
++-----------+----------+--------------------------------+------------+
+| TIMING-20 | Warning  | Non-clocked latch              | 15         |
+| LATCH-1   | Advisory | Existing latches in the design | 1          |
++-----------+----------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[17] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[18] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[19] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[20] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[21] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[22] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[23] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[24] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[25] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[26] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[27] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[28] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[29] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[30] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[31] cannot be properly analyzed as its control pin design_1_i/adder_ip/U0/adder_ip_v1_0_S00_AXI_inst/reg_data_out_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 15 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

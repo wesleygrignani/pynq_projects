@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "add",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "C:\/Users\/wesle\/Desktop\/pynq\/hls\/pynq_add\/solution1\/csynth.tcl",
+          "sourceLine": "13",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "add"
+              }]
+          }
+        }]
+    }]}

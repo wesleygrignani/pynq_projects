@@ -1,0 +1,38 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2022.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'wesle' on host 'wesley' (Windows NT_amd64 version 6.2) on Thu Feb 16 09:50:00 -0300 2023
+INFO: [HLS 200-10] In directory 'C:/Users/wesle/Desktop/pynq/hls'
+Sourcing Tcl script 'C:/Users/wesle/Desktop/pynq/hls/pynq_add/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: source C:/Users/wesle/Desktop/pynq/hls/pynq_add/solution1/export.tcl
+INFO: [HLS 200-1510] Running: open_project pynq_add 
+INFO: [HLS 200-10] Opening project 'C:/Users/wesle/Desktop/pynq/hls/pynq_add'.
+INFO: [HLS 200-1510] Running: set_top add 
+INFO: [HLS 200-1510] Running: add_files add.cpp 
+INFO: [HLS 200-10] Adding design file 'add.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/wesle/Desktop/pynq/hls/pynq_add/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -description {adder ip}
+INFO: [HLS 200-1464] Running solution command: config_export -display_name=scalar_add
+INFO: [HLS 200-1464] Running solution command: config_export -output=C:/Users/wesle/Desktop/pynq/hls
+INFO: [HLS 200-1464] Running solution command: config_export -version=1.0
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -description adder ip -display_name scalar_add -output C:/Users/wesle/Desktop/pynq/hls -version 1.0 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output C:/Users/wesle/Desktop/pynq/hls 
+Running Dispatch Server on port: 54746
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 16 09:50:26 2023...
+INFO: [HLS 200-802] Generated output file export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 15.119 seconds; current allocated memory: 6.211 MB.
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 26.984 seconds; peak allocated memory: 112.371 MB.

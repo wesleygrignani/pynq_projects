@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="B_TDATA_int_regslice" SOURCE="pynq_axis_adder/example.cpp:30" VARIABLE="tmp_data_V_1" MODULE="example" LOOP="VITIS_LOOP_28_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="adapter" DISPLAY="bind_adapter axilite" ID="" IMPL="" LATENCY="" OPTYPE="" PRAGMA="yes" RTLNAME="control_s_axi_U" SOURCE="" VARIABLE="" MODULE="example" LOOP="" BUNDLEDNAME="control" DSP="0" BRAM="0" URAM="0"/>
+</BindInfo>

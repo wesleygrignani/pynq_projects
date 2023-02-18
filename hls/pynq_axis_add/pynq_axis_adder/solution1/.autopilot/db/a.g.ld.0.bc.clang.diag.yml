@@ -1,0 +1,310 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 237, Column: 50 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE4readERS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_user_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 75, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::read(hls::axis<ap_int<32>, 2ul, 5ul, 6ul>&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 234, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 240, Column: 25 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE4readERS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_dest_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::read(hls::axis<ap_int<32>, 2ul, 5ul, 6ul>&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 234, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 239, Column: 67 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE4readERS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_id_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 79, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::read(hls::axis<ap_int<32>, 2ul, 5ul, 6ul>&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 234, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 239, Column: 36 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE4readERS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_user_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 75, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::read(hls::axis<ap_int<32>, 2ul, 5ul, 6ul>&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 234, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 238, Column: 39 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE4readERS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_dest_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::read(hls::axis<ap_int<32>, 2ul, 5ul, 6ul>&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 234, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 238, Column: 23 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE4readERS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_id_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 79, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::read(hls::axis<ap_int<32>, 2ul, 5ul, 6ul>&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 234, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi32ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<32, true>::ssdm_int(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi32EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<32>::ap_int(int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 258, Column: 51 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_user_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 75, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_int<32>, 2ul, 5ul, 6ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 261, Column: 26 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_dest_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_int<32>, 2ul, 5ul, 6ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 260, Column: 68 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_id_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 79, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_int<32>, 2ul, 5ul, 6ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 260, Column: 37 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_user_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 75, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_int<32>, 2ul, 5ul, 6ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 259, Column: 40 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_dest_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_int<32>, 2ul, 5ul, 6ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                   Line: 259, Column: 24 }
+Function:        _ZN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EE5writeERKS4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::axis<ap_int<32>, 2ul, 5ul, 6ul>::get_id_ptr()'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 79, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_int<32>, 2ul, 5ul, 6ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 29, Column: 5 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EEES6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::read(hls::axis<ap_int<32>, 2ul, 5ul, 6ul>&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 234, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&)'
+    DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 22, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 32, Column: 6 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EEES6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<1, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&)'
+    DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 22, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 31, Column: 5 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EEES6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_int<32>, 2ul, 5ul, 6ul> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_axi_sdata.h', 
+                       Line: 255, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&)'
+    DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 22, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 30, Column: 23 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EEES6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, true>::to_int() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&)'
+    DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 22, Column: 0 }
+  - String:          ''''
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 28, Column: 22 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EEES6_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_28_1
+  - String:          ' '
+  - LoopLoc:         'pynq_axis_adder/example.cpp:28:22'
+  - String:          ' '
+  - Function:        'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&)'
+    DebugLoc:        { File: pynq_axis_adder/example.cpp, Line: 22, Column: 0 }
+  - String:          ' '
+...
