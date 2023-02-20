@@ -1,4 +1,4 @@
 <VitisHLS:BurstInfo>
-    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="pynq_axis_adder/example.cpp:28:22" msg_id="214-252" msg_severity="INFO" msg_body="Could not analyze the loop bounds" resolution="214-252" LoopLoc="pynq_axis_adder/example.cpp:28:22" LoopName="VITIS_LOOP_28_1" ParentFunc="example(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="pynq_axis_adder/example.cpp:31:22" msg_id="214-252" msg_severity="INFO" msg_body="Could not analyze the loop bounds" resolution="214-252" LoopLoc="pynq_axis_adder/example.cpp:31:22" LoopName="VITIS_LOOP_31_1" ParentFunc="example(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;)"/>
 </VitisHLS:BurstInfo>
 

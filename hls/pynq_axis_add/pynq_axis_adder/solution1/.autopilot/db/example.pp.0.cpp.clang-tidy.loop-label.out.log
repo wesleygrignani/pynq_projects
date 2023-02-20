@@ -23,8 +23,8 @@ C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\solution1\.autopil
       ^~~
       VITIS_LOOP_1245_1: 
 C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\solution1\.autopilot\db\example.pp.0.cpp:4161:7: note: FIX-IT applied suggested code changes
-C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\solution1\.autopilot\db\example.pp.0.cpp:6433:5: warning: Added loop label VITIS_LOOP_28_1:   [xilinx-label-all-loops]
+C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\solution1\.autopilot\db\example.pp.0.cpp:6440:5: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
     while(1){
     ^~~~~
-    VITIS_LOOP_28_1: 
-C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\solution1\.autopilot\db\example.pp.0.cpp:6433:5: note: FIX-IT applied suggested code changes
+    VITIS_LOOP_31_1: 
+C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\solution1\.autopilot\db\example.pp.0.cpp:6440:5: note: FIX-IT applied suggested code changes

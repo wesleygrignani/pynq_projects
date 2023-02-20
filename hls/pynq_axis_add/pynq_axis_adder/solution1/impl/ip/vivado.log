@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Fri Feb 17 10:06:56 2023
-# Process ID: 21868
+# Start of session at: Sun Feb 19 17:14:16 2023
+# Process ID: 12564
 # Current directory: C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/solution1/impl/ip
 # Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
 # Log file: C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/solution1/impl/ip/vivado.log
@@ -14,4 +14,4 @@ source run_ippack.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
-INFO: [Common 17-206] Exiting Vivado at Fri Feb 17 10:07:10 2023...
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 19 17:14:28 2023...

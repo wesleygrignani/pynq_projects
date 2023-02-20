@@ -12,12 +12,14 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="pynq_axis_adder" solutionName="solution1" date="2023-02-17T10:01:55.062-0300" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="pynq_axis_adder" solutionName="solution1" date="2023-02-19T17:12:01.923-0300" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>
       <packageLog/>
-      <csimLog/>
+      <csimLog>
+        <logs message="WARNING [HLS SIM]: hls::stream 'hls::stream&lt;hls::axis&lt;ap_int&lt;32>, 0ull, 0ull, 0ull>, 0>1' is read while empty, which may result in RTL simulation hanging.&#xD;&#xA;0" projectName="pynq_axis_adder" solutionName="solution1" date="2023-02-19T17:12:50.984-0300" type="Warning"/>
+      </csimLog>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

@@ -132,7 +132,7 @@ OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
   set_property webtalk.parent_dir C:/Users/wesle/Desktop/pynq/vivado/pynq_hdl_axis_adder/pynq_axis_adder/pynq_axis_adder.cache/wt [current_project]
   set_property parent.project_path C:/Users/wesle/Desktop/pynq/vivado/pynq_hdl_axis_adder/pynq_axis_adder/pynq_axis_adder.xpr [current_project]
-  set_property ip_repo_paths C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder [current_project]
+  set_property ip_repo_paths C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add [current_project]
   update_ip_catalog
   set_property ip_output_repo C:/Users/wesle/Desktop/pynq/vivado/pynq_hdl_axis_adder/pynq_axis_adder/pynq_axis_adder.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]

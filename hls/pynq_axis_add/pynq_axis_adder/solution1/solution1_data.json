@@ -18,7 +18,7 @@
     "A": {
       "index": "0",
       "direction": "in",
-      "srcType": "stream<hls::axis<ap_int<32>, 2, 5, 6>, 0>&",
+      "srcType": "stream<hls::axis<ap_int<32>, 0, 0, 0>, 0>&",
       "srcSize": "96",
       "hwRefs": [{
           "type": "interface",
@@ -31,7 +31,7 @@
     "B": {
       "index": "1",
       "direction": "out",
-      "srcType": "stream<hls::axis<ap_int<32>, 2, 5, 6>, 0>&",
+      "srcType": "stream<hls::axis<ap_int<32>, 0, 0, 0>, 0>&",
       "srcSize": "96",
       "hwRefs": [{
           "type": "interface",
@@ -46,12 +46,13 @@
     "FlowTarget": "vivado",
     "ConfigTcl": [
       "config_export -description {axi stream example ip}",
-      "config_export -display_name=axis_adder",
-      "config_export -output=C:\/Users\/wesle\/Desktop\/pynq\/hls\/pynq_axis_add\/pynq_axis_adder",
-      "config_export -version=1.0",
+      "config_export -display_name=axis_acc_adder",
       "config_export -format=ip_catalog",
-      "config_export -rtl=verilog"
+      "config_export -output=C:\/Users\/wesle\/Desktop\/pynq\/hls\/pynq_axis_add\/pynq_axis_adder",
+      "config_export -rtl=verilog",
+      "config_export -version=1.1"
     ],
+    "DirectiveTcl": ["set_directive_top example -name example"],
     "ProfileOption": "0",
     "ProfileType": "none",
     "KernelName": "example"
@@ -69,13 +70,13 @@
     "Vendor": "xilinx.com",
     "Library": "hls",
     "Name": "example",
-    "Version": "1.0",
-    "DisplayName": "axis_adder",
-    "Revision": "2112906246",
+    "Version": "1.1",
+    "DisplayName": "axis_acc_adder",
+    "Revision": "2112909554",
     "Description": "axi stream example ip",
     "Taxonomy": "\/VITIS_HLS_IP",
     "AutoFamilySupport": "",
-    "ZipFile": "xilinx_com_hls_example_1_0.zip"
+    "ZipFile": "xilinx_com_hls_example_1_1.zip"
   },
   "Files": {
     "CSource": ["..\/example.cpp"],
@@ -94,14 +95,14 @@
       "impl\/verilog\/example.v"
     ],
     "SwDriver": [
-      "impl\/misc\/drivers\/example_v1_0\/data\/example.mdd",
-      "impl\/misc\/drivers\/example_v1_0\/data\/example.tcl",
-      "impl\/misc\/drivers\/example_v1_0\/src\/Makefile",
-      "impl\/misc\/drivers\/example_v1_0\/src\/xexample.c",
-      "impl\/misc\/drivers\/example_v1_0\/src\/xexample.h",
-      "impl\/misc\/drivers\/example_v1_0\/src\/xexample_hw.h",
-      "impl\/misc\/drivers\/example_v1_0\/src\/xexample_linux.c",
-      "impl\/misc\/drivers\/example_v1_0\/src\/xexample_sinit.c"
+      "impl\/misc\/drivers\/example_v1_1\/data\/example.mdd",
+      "impl\/misc\/drivers\/example_v1_1\/data\/example.tcl",
+      "impl\/misc\/drivers\/example_v1_1\/src\/Makefile",
+      "impl\/misc\/drivers\/example_v1_1\/src\/xexample.c",
+      "impl\/misc\/drivers\/example_v1_1\/src\/xexample.h",
+      "impl\/misc\/drivers\/example_v1_1\/src\/xexample_hw.h",
+      "impl\/misc\/drivers\/example_v1_1\/src\/xexample_linux.c",
+      "impl\/misc\/drivers\/example_v1_1\/src\/xexample_sinit.c"
     ],
     "IpMisc": ["impl\/misc\/logo.png"],
     "CsynthXml": "syn\/report\/csynth.xml",
@@ -338,13 +339,10 @@
       "portPrefix": "A_",
       "ports": [
         "A_TDATA",
-        "A_TDEST",
-        "A_TID",
         "A_TKEEP",
         "A_TLAST",
         "A_TREADY",
         "A_TSTRB",
-        "A_TUSER",
         "A_TVALID"
       ],
       "constraints": [{
@@ -363,13 +361,10 @@
       "portPrefix": "B_",
       "ports": [
         "B_TDATA",
-        "B_TDEST",
-        "B_TID",
         "B_TKEEP",
         "B_TLAST",
         "B_TREADY",
         "B_TSTRB",
-        "B_TUSER",
         "B_TVALID"
       ],
       "constraints": [{
@@ -470,9 +465,10 @@
       "dir": "out",
       "width": "1"
     },
-    "A_TDEST": {
+    "A_TLAST": {
       "dir": "in",
-      "width": "6"
+      "width": "1",
+      "isVector": "true"
     },
     "B_TREADY": {
       "dir": "in",
@@ -482,9 +478,10 @@
       "dir": "out",
       "width": "1"
     },
-    "B_TDEST": {
+    "B_TLAST": {
       "dir": "out",
-      "width": "6"
+      "width": "1",
+      "isVector": "true"
     },
     "A_TDATA": {
       "dir": "in",
@@ -498,19 +495,6 @@
       "dir": "in",
       "width": "4"
     },
-    "A_TUSER": {
-      "dir": "in",
-      "width": "2"
-    },
-    "A_TLAST": {
-      "dir": "in",
-      "width": "1",
-      "isVector": "true"
-    },
-    "A_TID": {
-      "dir": "in",
-      "width": "5"
-    },
     "B_TDATA": {
       "dir": "out",
       "width": "32"
@@ -522,19 +506,6 @@
     "B_TSTRB": {
       "dir": "out",
       "width": "4"
-    },
-    "B_TUSER": {
-      "dir": "out",
-      "width": "2"
-    },
-    "B_TLAST": {
-      "dir": "out",
-      "width": "1",
-      "isVector": "true"
-    },
-    "B_TID": {
-      "dir": "out",
-      "width": "5"
     }
   },
   "ModuleInfo": {
@@ -558,23 +529,23 @@
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "2.70",
-          "Estimate": "2.552"
+          "Estimate": "6.613"
         },
         "Loops": [{
-            "Name": "VITIS_LOOP_28_1",
+            "Name": "VITIS_LOOP_31_1",
             "TripCount": "",
             "Latency": "",
             "PipelineII": "1",
-            "PipelineDepth": "2"
+            "PipelineDepth": "3"
           }],
         "Area": {
           "BRAM_18K": "0",
           "AVAIL_BRAM": "280",
           "UTIL_BRAM": "0",
-          "FF": "40",
+          "FF": "149",
           "AVAIL_FF": "106400",
           "UTIL_FF": "~0",
-          "LUT": "125",
+          "LUT": "222",
           "AVAIL_LUT": "53200",
           "UTIL_LUT": "~0",
           "DSP": "0",
@@ -589,7 +560,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2023-02-17 10:06:53 -0300",
+    "Time": "2023-02-19 17:14:13 -0300",
     "ToolName": "vitis_hls",
     "ToolVersion": "2022.2"
   }

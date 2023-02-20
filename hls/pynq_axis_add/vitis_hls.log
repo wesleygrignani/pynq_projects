@@ -1,5 +1,5 @@
 INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2022.2/bin/unwrapped/win64.o/vitis_hls.exe'
-INFO: [HLS 200-10] For user 'wesle' on host 'wesley' (Windows NT_amd64 version 6.2) on Fri Feb 17 10:06:42 -0300 2023
+INFO: [HLS 200-10] For user 'wesle' on host 'wesley' (Windows NT_amd64 version 6.2) on Sun Feb 19 17:14:01 -0300 2023
 INFO: [HLS 200-10] In directory 'C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add'
 Sourcing Tcl script 'C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/solution1/export.tcl'
 INFO: [HLS 200-1510] Running: source C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/solution1/export.tcl
@@ -8,7 +8,7 @@ INFO: [HLS 200-10] Opening project 'C:/Users/wesle/Desktop/pynq/hls/pynq_axis_ad
 INFO: [HLS 200-1510] Running: set_top example 
 INFO: [HLS 200-1510] Running: add_files pynq_axis_adder/example.cpp 
 INFO: [HLS 200-10] Adding design file 'pynq_axis_adder/example.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files -tb pynq_axis_adder/example_test.cpp 
+INFO: [HLS 200-1510] Running: add_files -tb pynq_axis_adder/example_test.cpp -cflags -DALLOW_EMPTY_HLS_STREAM_READS -csimflags -Wno-unknown-pragmas 
 INFO: [HLS 200-10] Adding test bench file 'pynq_axis_adder/example_test.cpp' to the project
 INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
 INFO: [HLS 200-10] Opening solution 'C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/solution1'.
@@ -17,15 +17,18 @@ INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
 INFO: [HLS 200-1505] Using flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
 INFO: [HLS 200-1464] Running solution command: config_export -description {axi stream example ip}
-INFO: [HLS 200-1464] Running solution command: config_export -display_name=axis_adder
+INFO: [HLS 200-1464] Running solution command: config_export -display_name=axis_acc_adder
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
 INFO: [HLS 200-1464] Running solution command: config_export -output=C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder
-INFO: [HLS 200-1464] Running solution command: config_export -version=1.0
-INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1464] Running solution command: config_export -version=1.1
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
 INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
-INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
-INFO: [HLS 200-1510] Running: config_export -description axi stream example ip -display_name axis_adder -output C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder -version 1.0 
+INFO: [HLS 200-1510] Running: config_export -description axi stream example ip -display_name axis_acc_adder -format ip_catalog -output C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder -rtl verilog -version 1.1 
+INFO: [HLS 200-1510] Running: source ./pynq_axis_adder/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name example example 
 INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder 
-Running Dispatch Server on port: 59108
+Running Dispatch Server on port: 64500
 INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
 
 ****** Vivado v2022.2 (64-bit)
@@ -37,7 +40,7 @@ source run_ippack.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
-INFO: [Common 17-206] Exiting Vivado at Fri Feb 17 10:07:10 2023...
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 19 17:14:28 2023...
 INFO: [HLS 200-802] Generated output file pynq_axis_adder/export.zip
-INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 17.264 seconds; current allocated memory: 8.340 MB.
-INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 0 seconds. Total elapsed time: 28.891 seconds; peak allocated memory: 114.258 MB.
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 15.494 seconds; current allocated memory: 8.023 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 27.179 seconds; peak allocated memory: 113.297 MB.

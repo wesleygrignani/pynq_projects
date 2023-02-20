@@ -1,11 +1,11 @@
-<project xmlns="com.autoesl.autopilot.project" top="example" name="pynq_axis_adder">
+<project xmlns="com.autoesl.autopilot.project" name="pynq_axis_adder" top="example">
     <includePaths/>
     <libraryPaths/>
-    <Simulation>
-        <SimFlow name="csim" csimMode="0" lastCsimMode="0"/>
+    <Simulation argv="">
+        <SimFlow name="csim" ldflags="" clean="true" csimMode="0" lastCsimMode="0"/>
     </Simulation>
     <files xmlns="">
-        <file name="../example_test.cpp" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" csimflags=" -Wno-unknown-pragmas" blackbox="false"/>
+        <file name="../example_test.cpp" sc="0" tb="1" cflags=" -DALLOW_EMPTY_HLS_STREAM_READS -Wno-unknown-pragmas" csimflags=" -Wno-unknown-pragmas" blackbox="false"/>
         <file name="pynq_axis_adder/example.cpp" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>
     </files>
     <solutions xmlns="">

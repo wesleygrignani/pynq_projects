@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-//Date        : Fri Feb 17 10:55:14 2023
+//Date        : Sun Feb 19 17:25:06 2023
 //Host        : Wesley running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -9,7 +9,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=18,numReposBlks=10,numNonXlnxBlks=0,numHierBlks=8,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=1,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=4,da_ps7_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=18,numReposBlks=10,numNonXlnxBlks=0,numHierBlks=8,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=1,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=5,da_clkrst_cnt=17,da_ps7_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
    (DDR_addr,
     DDR_ba,
@@ -358,15 +358,12 @@ module design_1
         .S00_AXI_wready(axi_dma_0_M_AXI_S2MM_WREADY),
         .S00_AXI_wstrb(axi_dma_0_M_AXI_S2MM_WSTRB),
         .S00_AXI_wvalid(axi_dma_0_M_AXI_S2MM_WVALID));
-  design_1_example_0_0 example_0
+  design_1_example_0_1 example_0
        (.A_TDATA(axi_dma_M_AXIS_MM2S_TDATA),
-        .A_TDEST({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
-        .A_TID({1'b0,1'b0,1'b0,1'b0,1'b0}),
         .A_TKEEP(axi_dma_M_AXIS_MM2S_TKEEP),
         .A_TLAST(axi_dma_M_AXIS_MM2S_TLAST),
         .A_TREADY(axi_dma_M_AXIS_MM2S_TREADY),
         .A_TSTRB({1'b1,1'b1,1'b1,1'b1}),
-        .A_TUSER({1'b0,1'b0}),
         .A_TVALID(axi_dma_M_AXIS_MM2S_TVALID),
         .B_TDATA(example_0_B_TDATA),
         .B_TKEEP(example_0_B_TKEEP),

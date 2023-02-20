@@ -18,17 +18,29 @@
 #include "hls_stream.h"
 
 
-void example(hls::stream< ap_axis<32,2,5,6> > &A,
-	         hls::stream< ap_axis<32,2,5,6> > &B){
+void example(hls::stream< ap_axis<32,0,0,0> > &A,
+	         hls::stream< ap_axis<32,0,0,0> > &B){
+
 #pragma HLS INTERFACE axis port=A
 #pragma HLS INTERFACE axis port=B
 #pragma HLS INTERFACE mode=s_axilite port=return
 
-	ap_axis<32,2,5,6> tmp;
+	ap_axis<32,0,0,0> tmp;
+	int acc, i = 0;
+
     while(1){
-		A.read(tmp);
-		tmp.data = tmp.data.to_int() + 5;
-		B.write(tmp);
+
+        A.read(tmp);
+		acc += tmp.data.to_int();
+		i++;
+
+		if(i == 2){
+			tmp.data = acc;
+			B.write(tmp);
+			i = 0;
+			acc = 0;
+		}
+
 		if(tmp.last){
 			break;
 		}

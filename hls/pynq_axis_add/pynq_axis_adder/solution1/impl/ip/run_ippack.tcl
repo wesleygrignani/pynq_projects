@@ -53,9 +53,9 @@ proc sort_file_names {files {top_name {}}} {
 set Vendor      "xilinx.com"
 set Library     "hls"
 set IPName      "example"
-set Version     "1.0"
-set DisplayName "axis_adder"
-set Revision    "2112906246"
+set Version     "1.1"
+set DisplayName "axis_acc_adder"
+set Revision    "2112909554"
 set Description "axi stream example ip"
 set Device      "zynq"
 set AutoFamily  ""
@@ -73,12 +73,6 @@ set solution_dir "C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/
 set debug_dir "C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/solution1/.debug"
 set xo_hls_files_dir ""
 set hdl_module_list {example_control_s_axi
-example_regslice_both
-example_regslice_both
-example_regslice_both
-example_regslice_both
-example_regslice_both
-example_regslice_both
 example_regslice_both
 example_regslice_both
 example_regslice_both
@@ -241,13 +235,10 @@ set Interfaces {
         port_prefix "A"
         has_tready "1"
         ports {
-            TDEST 6
+            TLAST 1
             TDATA 32
             TKEEP 4
             TSTRB 4
-            TUSER 2
-            TLAST 1
-            TID 5
         }
         ctype {
             TVALID {
@@ -260,10 +251,10 @@ set Interfaces {
                 Width "1"
                 Bits "1"
             }
-            TDEST {
+            TLAST {
                 Type "null"
-                Width "6"
-                Bits "6"
+                Width "1"
+                Bits "1"
             }
             TDATA {
                 Type "null"
@@ -279,21 +270,6 @@ set Interfaces {
                 Type "null"
                 Width "4"
                 Bits "4"
-            }
-            TUSER {
-                Type "null"
-                Width "2"
-                Bits "2"
-            }
-            TLAST {
-                Type "null"
-                Width "1"
-                Bits "1"
-            }
-            TID {
-                Type "null"
-                Width "5"
-                Bits "5"
             }
         }
     }
@@ -303,13 +279,10 @@ set Interfaces {
         port_prefix "B"
         has_tready "1"
         ports {
-            TDEST 6
+            TLAST 1
             TDATA 32
             TKEEP 4
             TSTRB 4
-            TUSER 2
-            TLAST 1
-            TID 5
         }
         ctype {
             TREADY {
@@ -322,10 +295,10 @@ set Interfaces {
                 Width "1"
                 Bits "1"
             }
-            TDEST {
+            TLAST {
                 Type "null"
-                Width "6"
-                Bits "6"
+                Width "1"
+                Bits "1"
             }
             TDATA {
                 Type "null"
@@ -341,21 +314,6 @@ set Interfaces {
                 Type "null"
                 Width "4"
                 Bits "4"
-            }
-            TUSER {
-                Type "null"
-                Width "2"
-                Bits "2"
-            }
-            TLAST {
-                Type "null"
-                Width "1"
-                Bits "1"
-            }
-            TID {
-                Type "null"
-                Width "5"
-                Bits "5"
             }
         }
     }

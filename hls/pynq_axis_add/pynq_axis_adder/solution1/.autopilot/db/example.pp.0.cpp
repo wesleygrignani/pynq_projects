@@ -6419,21 +6419,37 @@ private:
 
 
 
-__attribute__((sdx_kernel("example", 0))) void example(hls::stream< ap_axis<32,2,5,6> > &A,
-          hls::stream< ap_axis<32,2,5,6> > &B){
-#line 14 "C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/solution1/csynth.tcl"
+__attribute__((sdx_kernel("example", 0))) void example(hls::stream< ap_axis<32,0,0,0> > &A,
+          hls::stream< ap_axis<32,0,0,0> > &B){
+#line 15 "C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/solution1/csynth.tcl"
 #pragma HLSDIRECTIVE TOP name=example
 # 22 "pynq_axis_adder/example.cpp"
+
+#line 6 "C:/Users/wesle/Desktop/pynq/hls/pynq_axis_add/pynq_axis_adder/solution1/directives.tcl"
+#pragma HLSDIRECTIVE TOP name=example
+# 22 "pynq_axis_adder/example.cpp"
+
 
 #pragma HLS INTERFACE axis port=A
 #pragma HLS INTERFACE axis port=B
 #pragma HLS INTERFACE mode=s_axilite port=return
 
- ap_axis<32,2,5,6> tmp;
-    VITIS_LOOP_28_1: while(1){
-  A.read(tmp);
-  tmp.data = tmp.data.to_int() + 5;
-  B.write(tmp);
+ ap_axis<32,0,0,0> tmp;
+ int acc, i = 0;
+
+    VITIS_LOOP_31_1: while(1){
+
+        A.read(tmp);
+  acc += tmp.data.to_int();
+  i++;
+
+  if(i == 2){
+   tmp.data = acc;
+   B.write(tmp);
+   i = 0;
+   acc = 0;
+  }
+
   if(tmp.last){
    break;
   }

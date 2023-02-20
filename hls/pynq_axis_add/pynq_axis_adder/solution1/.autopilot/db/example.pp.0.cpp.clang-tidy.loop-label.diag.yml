@@ -47,12 +47,12 @@ Diagnostics:
         Length:          0
         ReplacementText: 'VITIS_LOOP_1245_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_28_1:  '
-    FileOffset:      28
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
     FilePath:        'C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\example.cpp'
     Replacements:    
       - FilePath:        'C:\Users\wesle\Desktop\pynq\hls\pynq_axis_add\pynq_axis_adder\solution1\.autopilot\db\example.pp.0.cpp'
-        Offset:          887320
+        Offset:          887510
         Length:          0
-        ReplacementText: 'VITIS_LOOP_28_1: '
+        ReplacementText: 'VITIS_LOOP_31_1: '
 ...
